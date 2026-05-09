@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="validate.js"></script>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <p>Student registration form is very much important to verify student background and to grant access to the student</p>
+    
+    <div class="form-container">
+        <form action="#" method="post">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label><br><br>
+
+            <label>Languages Known:</label><br>
+            <input type="checkbox" id="english" name="languages" value="English">
+            <label for="english">English</label><br>
+            <input type="checkbox" id="hindi" name="languages" value="Hindi">
+            <label for="hindi">Hindi</label><br>
+            <input type="checkbox" id="tamil" name="languages" value="Tamil">
+            <label for="tamil">Tamil</label><br><br>
+
+            <label for="course">Course:</label>
+            <select id="course" name="course" required>
+                <option value="">--Select--</option>
+                <option value="BE">B.E</option>
+                <option value="ME">M.E</option>
+                <option value="MBA">MBA</option>
+                <option value="MCA">MCA</option>
+            </select><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <h2>Facilities</h2>
+    <ul>
+        <li>100+ clubs and forums</li>
+        <li>Experienced faculties</li>
+        <li>Modern infrastructure</li>
+    </ul>
+
+    <footer>
+        <p>&copy; Jagadeep, 2026</p>
+    </footer>
+</body>
+</html>
